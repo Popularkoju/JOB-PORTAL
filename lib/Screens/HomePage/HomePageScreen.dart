@@ -99,18 +99,19 @@ class HomePage extends StatelessWidget {
             const SizedBox(
               height: 12,
             ),
-           const PopularJob(),
-            const SizedBox(height: 18,),
+            const PopularJob(),
+            const SizedBox(
+              height: 18,
+            ),
             Text("Recommended for you",
                 style: MyAppTextStyle().textStyle(
                   appfontWeight: FontWeight.bold,
                   appfontSize: 18,
                 )),
-            const SizedBox(height: 12,),
+            const SizedBox(
+              height: 12,
+            ),
             const RecommendedJob(),
-
-
-
           ],
         ),
       ),

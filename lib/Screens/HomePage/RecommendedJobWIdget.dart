@@ -1,5 +1,7 @@
 
 import 'package:flutter/material.dart';
+import 'package:job/StateManagement/HomePageManagement.dart';
+import 'package:provider/provider.dart';
 
 import '../../Components/AppColors.dart';
 import '../../Components/MyAppTextStyle.dart';
@@ -10,6 +12,7 @@ class RecommendedJob extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return   ListView.builder(
+      controller: context.read<HomePageManagement>().scrollController,
       shrinkWrap: true,
       itemCount: 5,
       itemBuilder: (_,index)=>

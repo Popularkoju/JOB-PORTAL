@@ -12,9 +12,10 @@ class AppColors {
 
   static Color dGrey = Color(0xff6F6F6F);
   static Color mGrey = Color(0xffC5C0C0);
-  //static Color lGdish = Color(0xffF05B46);
-  //
-  // static Color lightGreen = Color(0xffD6F6E7);
-  // static Color lightBlue = Color(0xffDCF1F8);
+  static Color dviolet = Color(0xffD1C8EB);
+  static Color dGreen = Color(0xffE8EBC8);
+  static Color dPink = Color(0xffEABFC9);
+  static Color lBlack = Color(0xff474747);
+
 
 }
